@@ -1,0 +1,22 @@
+# Configuracao de exemplo do PacMan Redes I.
+#
+# Modos:
+# - claro: envia o mapa completo desde o inicio.
+# - lanterna: mostra apenas a mascara circular atual.
+# - expo: mantem visiveis as celulas ja vistas.
+game_mode=lanterna
+default_role=servidor
+
+# Quantidade maxima de DATA pendentes em transferencia de arquivos.
+# Para repeticao seletiva, fica abaixo de metade do espaco de sequencia.
+file_window_size=30
+
+# Diametro inicial da mascara circular. 3 significa raio 1, isto e, uma casa
+# para cada lado ao redor do PacMan.
+visualization_size=3
+
+# A cada 5 movimentos aceitos, o raio da visualizacao aumenta em 1.
+moves_per_visibility_increase=5
+
+map_path=resources/maps/default.csv
+interface_name=
